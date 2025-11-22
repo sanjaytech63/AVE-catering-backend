@@ -13,13 +13,18 @@
     "noImplicitAny": true,
     "allowImportingTsExtensions": false,
     "declaration": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "noEmit": false,
+    "transpileOnly": true
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "dist", "create-sample-orders.ts", "seed-sample-data.ts"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "create-sample-orders.ts",
+    "seed-sample-data.ts"
+  ]
 }
-
-
 
 // {
 //   "compilerOptions": {
